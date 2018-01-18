@@ -1,0 +1,191 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>娱乐陪玩</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="~/Content/Css/Reset.css" rel="stylesheet" />
+    <link href="~/Content/Css/Personal_index.css" rel="stylesheet" />
+    <link href="~/Content/Css/Personal_ManitoRecreation.css" rel="stylesheet" />
+    <link href="~/Content/Img/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+</head>
+<body>
+    <div class="manito_recreation">
+        <p class="personal_title">大神申请>娱乐陪玩</p>
+        <div class="row_cont">
+            <span class="row_title">主页头像：</span>
+            <button>点击上传</button>
+            <input type="file" name="head" value=" " />
+            <span class="row_msg">必须是露脸照片，尺寸要求：</span>
+        </div>
+        <div class="row_cont row_img_cont">
+            <span class="row_title"></span>
+            <div class="head_cont">
+                @*<span class="row_cont_img_txt">图片展示区</span>*@
+                <img src="~/Content/Img/use_img.jpg" />
+            </div>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">选择性别：</span>
+            <input type="radio" name="six" checked value="女" />
+            <span>女</span>
+            <input type="radio" name="six" value="男" />
+            <span>男</span>
+            <span class="row_msg">认证后不可修改</span>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">所在城市：</span>
+            <span class="select">选择城市</span>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">选择游戏：</span>
+            <select>
+                <option value="value">选择游戏</option>
+            </select>
+            <select>
+                <option value="value">选择区服</option>
+            </select>
+            <select>
+                <option value="value">选择段位</option>
+            </select>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">段位截图：</span>
+            <button>点击上传</button>
+            <input type="file" name="grade" value=" " />
+            <span class="row_msg">上传最高段位截图，<a class="hover" href="#">查看示例</a></span>
+        </div>
+        <div class="row_cont row_img_cont">
+            <span class="row_title"></span>
+            <div class="grade_cont">
+                @*<span class="row_cont_img_txt">图片展示区</span>*@
+                <img src="~/Content/Img/use_img.jpg" />
+            </div>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">陪打价格：</span>
+            <select>
+                <option value="value">线上陪玩</option>
+            </select>
+            <select>
+                <option value="value">线下陪玩</option>
+            </select>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">陪打标签：</span>
+            <span class="select">陪打标签</span>
+            <span class="row_msg">最多设置10个标签</span>
+        </div>
+        <div class="row_cont row_img_cont">
+            <span class="row_title"></span>
+            <div class="label_cont">
+                <span class="row_cont_img_txt">标签展示区</span>
+            </div>
+        </div>
+        <div class="row_cont">
+            <span class="row_title service_row_title">服务说明：</span>
+            <textarea class="service"  name="service" placeholder="输入服务说明用来吸引客户下单，不允许广告、色情、暴力、微信、QQ等信息" ></textarea>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">个人照片：</span>
+            <button>点击上传</button>
+            <input type="file" name="self" value=" " />
+            <span class="row_msg">必须为露脸真实个人照片否则无法通过审核。做多上传9张。尺寸要求：</span>
+        </div>
+        <div class="row_cont row_img_cont">
+            <span class="row_title"></span>
+            <div class="self_cont">
+                @*<span class="row_cont_img_txt">图片展示区</span>*@
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+                <div class="self_img">
+                    <i></i>
+                    <img src="~/Content/Img/use_img.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">战绩截图：</span>
+            <button>点击上传</button>
+            <input type="file" name="standings" value=" " />
+            <span class="row_msg"><a class="hover" href="#">查看示例</a></span>
+        </div>
+        <div class="row_cont row_img_cont">
+            <span class="row_title"></span>
+            <div class="standings_cont">
+                <span class="row_cont_img_txt">图片展示区</span>
+            </div>
+        </div>
+        <div class="row_cont">
+            <span class="row_title">个人音频：</span>
+            <button>点击上传</button>
+            <input type="file" name="vioce" value=" " />
+            <span class="row_msg">必须为真人声音，切不少于5秒，不长于15秒，否则无法通过审核。格式需为MP3</span>
+        </div>
+        <div class="row_cont row_img_cont">
+            <span class="row_title"></span>
+            <div class="vioce_cont">
+                <span class="row_cont_img_txt row_cont_vioce_txt">上传文件名展示区</span>
+            </div>
+        </div>
+        <div class="check_cont">
+            <input type="checkbox" name="agree" value=" " />
+            <span>我已阅读并同意<a class="hover" href="#">服务条款</a></span>
+        </div>
+        <div class="recreation_cont">
+            <button class="recreation_btn">提交审核</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(function () {
+        //parent.document.querySelector('.personal_ifm').height = 
+        $(window.parent.document).find('.personal_ifm').height($('.manito_recreation').height()+40);
+    })
+    $('button').not('.recreation_btn').click(function () {
+        $(this).parent('.row_cont').find('input[type="file"]').trigger('click');
+    })
+    $('.self_img i').click(function () {
+        $(this).parent('.self_img').remove();
+    })
+</script>
