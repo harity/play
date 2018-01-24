@@ -48,5 +48,13 @@ namespace gameplay.Controllers
         {
             return View();
         }
+        /// <summary>
+        /// 接单记录
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult OrderRecord()
+        {
+            return View();
+        }
 	}
 }

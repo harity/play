@@ -95,6 +95,7 @@
     box-sizing:border-box;
     cursor:pointer;
     margin:10px 0;
+    font-size:18px;
 }
 .personal_nav li:nth-child(1)>span{
     background-image:url(/Content/Img/user_play.png),url(/Content/Img/user_arrows.png);
