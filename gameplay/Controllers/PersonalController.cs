@@ -52,7 +52,15 @@ namespace gameplay.Controllers
         /// 接单记录
         /// </summary>
         /// <returns></returns>
-        public ActionResult OrderRecord()
+        public ActionResult OrderReceivRecord()
+        {
+            return View();
+        }
+        /// <summary>
+        /// 下单记录
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult OrderPlaceRecord()
         {
             return View();
         }

@@ -250,9 +250,11 @@
     <Content Include="Content\Css\Personal_ManitoApply.css" />
     <Content Include="Content\Css\Personal_ManitoRecreation.css" />
     <Content Include="Content\Css\Personal_ManitoTop.css" />
+    <Content Include="Content\Css\Personal_OrderPlaceRecord.css" />
     <Content Include="Content\Css\Personal_Welcome.css" />
     <Content Include="Content\Css\Reset.css" />
-    <Content Include="Content\Css\Personal_OrderRecord.css" />
+    <Content Include="Content\Css\Personal_OrderReceivRecord.css" />
+    <Content Include="Content\Img\alert_cel.png" />
     <Content Include="Content\Img\alert_close.png" />
     <Content Include="Content\Img\apply.png" />
     <Content Include="Content\Img\check.png" />
@@ -265,6 +267,8 @@
     <Content Include="Content\Img\no_order.png" />
     <Content Include="Content\Img\ok.png" />
     <Content Include="Content\Img\order.png" />
+    <Content Include="Content\Img\place_manito.png" />
+    <Content Include="Content\Img\place_recreation.png" />
     <Content Include="Content\Img\plan1.png" />
     <Content Include="Content\Img\plan2.png" />
     <Content Include="Content\Img\plan2_active.png" />
@@ -449,7 +453,8 @@
     <Content Include="Views\Personal\ManitoApply.cshtml" />
     <Content Include="Views\Personal\ManitoTop.cshtml" />
     <Content Include="Views\Personal\ManitoRecreation.cshtml" />
-    <Content Include="Views\Personal\OrderRecord.cshtml" />
+    <Content Include="Views\Personal\OrderReceivRecord.cshtml" />
+    <Content Include="Views\Personal\OrderPlaceRecord.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

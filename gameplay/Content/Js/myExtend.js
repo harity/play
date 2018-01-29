@@ -37,5 +37,18 @@
 
         alt.html("").addClass("err errok");
         return true;
-    }
+    },
+    Myalert: function (msg) {
+        var div = $('<div>' + msg + '</div>');
+        div.css({
+            "position": "fixed", "width": "340", "height": "60px", "background": "#000", "color": "#ffc907", "left": "30%", "top": "30%", "display": "none"
+         , "line-height": "60px", "font-size": "16px", "borderRadius": "4px","border":"1px solid #ffc907","textAlign":"center"
+        });
+        $('html').append(div);
+        div.fadeIn(3000);
+        setTimeout(function (
+         ) {
+            div.fadeOut(2000);
+        }, 2000)
+    }
 })

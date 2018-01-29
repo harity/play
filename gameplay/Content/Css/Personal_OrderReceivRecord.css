@@ -299,3 +299,108 @@
     line-height:80px;
     color:#262626;
 }
+.game_result{
+    position:fixed;
+    width:100%;
+    top:200px;
+}
+.game_result_PUBG{
+    margin:0 auto;
+    width:500px;
+    height:320px;
+    background-color:#0d0a00;
+    border-radius:6px;
+    border:1px solid #ffc907;
+}
+.game_result_title{
+    line-height:50px;
+    text-align:center;
+    font-size:18px;
+    color:#ffc907;
+    font-weight:bold;
+    border-bottom:1px solid #ffc907;
+}
+.game_result_PUBG_cont{
+    margin-top:30px;
+}
+.game_result_PUBG_item{
+    font-size:0;
+    width:250px;
+    margin:0 auto 10px auto;
+    position:relative;
+}
+.game_result_PUBG_item>span{
+    font-size:14px;
+    position:absolute;
+    line-height:30px;
+    left:-66px;
+    color:#999;
+}
+.game_result_PUBG_item>select{
+    width:120px;
+    height:30px;
+    border-radius:4px;
+    color:#999;
+    padding-left:10px;
+    appearance:none;
+    -moz-appearance:none;/*?Firefox?*/
+    -webkit-appearance:none;/*?Safari?和?Chrome?*/
+    background:#f5f5f5 url(/Content/Img/user_arrows.png) 96px center no-repeat;
+}
+.game_result_PUBG_item>select+select{
+    margin-left:10px;
+}
+.game_result_PUBG_btn_cont{
+    width:220px;
+    margin:30px auto 0 auto;
+}
+.game_result_PUBG_ok{
+    width:100px;
+    height:30px;
+    border-radius:4px;
+    border:none;
+    background-color:#ffc907;
+    outline:none;
+    cursor:pointer;
+}
+.game_result_PUBG_ok:hover{
+    background-color:#fcd538;
+}
+.game_result_PUBG_cancel{
+    width:100px;
+    height:30px;
+    border-radius:4px;
+    border:none;
+    background-color:#fff;
+    outline:none;
+    color:#999;
+    cursor:pointer;
+    margin-left:20px;
+}
+.game_result_PUBG_cancel:hover{
+    color:#262626;
+}
+.game_result_other{
+    margin:0 auto;
+    width:500px;
+    height:260px;
+    background-color:#0d0a00;
+    border-radius:6px;
+    border:1px solid #ffc907;
+}
+.game_result_other_cont{
+    width:220px;
+    margin:60px auto 0 auto;
+}
+.game_result_other_cont>select{
+    width:220px;
+    height:30px;
+    border-radius:4px;
+    outline:none;
+    padding-left:80px;
+    border-radius:4px;
+    appearance:none;
+    -moz-appearance:none;/*?Firefox?*/
+    -webkit-appearance:none;/*?Safari?和?Chrome?*/
+    background:#f5f5f5 url(/Content/Img/user_arrows.png) 196px center no-repeat;
+}
