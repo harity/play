@@ -248,6 +248,7 @@
     <Content Include="Content\Css\Nav.css" />
     <Content Include="Content\Css\Personal_index.css" />
     <Content Include="Content\Css\Personal_ManitoApply.css" />
+    <Content Include="Content\Css\Personal_ManitoHomepage.css" />
     <Content Include="Content\Css\Personal_ManitoRecreation.css" />
     <Content Include="Content\Css\Personal_ManitoTop.css" />
     <Content Include="Content\Css\Personal_OrderPlaceRecord.css" />
@@ -261,9 +262,14 @@
     <Content Include="Content\Img\check_no.png" />
     <Content Include="Content\Img\check_ok.png" />
     <Content Include="Content\Img\home.png" />
+    <Content Include="Content\Img\icon_manito.png" />
+    <Content Include="Content\Img\icon_recreation.png" />
     <Content Include="Content\Img\img_del.png" />
+    <Content Include="Content\Img\KingOfGlory.png" />
     <Content Include="Content\Img\logo.png" />
+    <Content Include="Content\Img\man.png" />
     <Content Include="Content\Img\my_wallet.png" />
+    <Content Include="Content\Img\no_manito.png" />
     <Content Include="Content\Img\no_order.png" />
     <Content Include="Content\Img\ok.png" />
     <Content Include="Content\Img\order.png" />
@@ -285,6 +291,9 @@
     <Content Include="Content\Img\recreation.png" />
     <Content Include="Content\Img\select.png" />
     <Content Include="Content\Img\sf-icon.png" />
+    <Content Include="Content\Img\star_dark.png" />
+    <Content Include="Content\Img\star_light.png" />
+    <Content Include="Content\Img\upgrade.png" />
     <Content Include="Content\Img\upper.png" />
     <Content Include="Content\Img\user_arrows.png" />
     <Content Include="Content\Img\user_id.png" />
@@ -300,6 +309,7 @@
     <Content Include="Content\Img\wechat-active.png" />
     <Content Include="Content\Img\code-app.png" />
     <Content Include="Content\Img\code-pc.png" />
+    <Content Include="Content\Img\weman.png" />
     <Content Include="Content\Js\personal_index.js" />
     <Content Include="Content\Js\Personal_ManitoRecreation.js" />
     <Content Include="Content\Js\Personal_ManitoTop.js" />
@@ -455,6 +465,7 @@
     <Content Include="Views\Personal\ManitoRecreation.cshtml" />
     <Content Include="Views\Personal\OrderReceivRecord.cshtml" />
     <Content Include="Views\Personal\OrderPlaceRecord.cshtml" />
+    <Content Include="Views\Personal\ManitoHomepage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

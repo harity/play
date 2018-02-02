@@ -458,3 +458,60 @@
     display:block;
     line-height:26px;
 }
+.game_result_evaluate_star{
+    height:80px;
+    width:100%;
+    text-align:center;
+}
+.game_result_evaluate_star i{
+    margin-top:26px;
+    cursor:pointer;
+}
+.game_result_evaluate_star i+i{
+    margin-left:15px;
+}
+.game_result_evaluate_star i.star_light{
+    display:inline-block;
+    width:28px;
+    height:28px;
+    background:url(/Content/Img/star_light.png) center center no-repeat;
+
+}
+.game_result_evaluate_star i.star_dark{
+    display:inline-block;
+    width:28px;
+    height:28px;
+    background:url(/Content/Img/star_dark.png) center center no-repeat;
+
+}
+.star_evaluate{
+    width:440px;
+    height:100px;
+    outline:none;
+    border-radius:4px;
+    border:none;
+    margin-left:30px;
+    padding:10px;
+    box-sizing:border-box;
+    resize: none;
+}
+
+.game_delete{
+    margin:0 auto;
+    width:340px;
+    height:120px;
+    background-color:#0d0a00;
+    border-radius:6px;
+    border:1px solid #ffc907;
+}
+.game_delete_txt{
+    font-size:16px;
+    color:#ffc907;
+    line-height:32px;
+    margin-top:18px;
+    text-align:center;
+}
+.game_delete_btn{
+    margin-top:10px;
+    text-align:center;
+}

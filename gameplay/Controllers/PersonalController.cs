@@ -64,5 +64,13 @@ namespace gameplay.Controllers
         {
             return View();
         }
+        /// <summary>
+        /// 大神主页
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult ManitoHomepage()
+        {
+            return View();
+        }
 	}
 }

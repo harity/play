@@ -122,7 +122,7 @@
     text-align:center;
     margin-top:20px;
 }
-.recreation_btn{
+.recreation_check_btn{
     width:200px;
     height:46px;
     font-size:18px;
@@ -132,7 +132,7 @@
     cursor:pointer;
     outline:none;
 }
-.recreation_btn:hover{
+.recreation_check_btn:hover{
     background-color:#fcd538;
 }
 .row_cont .head_cont img,.row_cont .grade_cont img,.row_cont .label_cont img,.row_cont .standings_cont img{
