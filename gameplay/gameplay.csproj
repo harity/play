@@ -259,6 +259,7 @@
     <Content Include="Content\Img\alert_cel.png" />
     <Content Include="Content\Img\alert_close.png" />
     <Content Include="Content\Img\apply.png" />
+    <Content Include="Content\Img\apply_icon.png" />
     <Content Include="Content\Img\check.png" />
     <Content Include="Content\Img\check_no.png" />
     <Content Include="Content\Img\check_ok.png" />
@@ -267,10 +268,13 @@
     <Content Include="Content\Img\icon_recreation.png" />
     <Content Include="Content\Img\img_del.png" />
     <Content Include="Content\Img\KingOfGlory.png" />
+    <Content Include="Content\Img\KingOfGlory_recreation.png" />
+    <Content Include="Content\Img\label.png" />
     <Content Include="Content\Img\logo.png" />
     <Content Include="Content\Img\man.png" />
     <Content Include="Content\Img\my_wallet.png" />
     <Content Include="Content\Img\no_manito.png" />
+    <Content Include="Content\Img\no_manito_recreation.png" />
     <Content Include="Content\Img\no_message.png" />
     <Content Include="Content\Img\no_order.png" />
     <Content Include="Content\Img\ok.png" />
@@ -292,11 +296,13 @@
     <Content Include="Content\Img\real_name.png" />
     <Content Include="Content\Img\recreation.png" />
     <Content Include="Content\Img\select.png" />
+    <Content Include="Content\Img\server.png" />
     <Content Include="Content\Img\sf-icon.png" />
     <Content Include="Content\Img\star_dark.png" />
     <Content Include="Content\Img\star_icon_dark.png" />
     <Content Include="Content\Img\star_icon_light.png" />
     <Content Include="Content\Img\star_light.png" />
+    <Content Include="Content\Img\timg.jpg" />
     <Content Include="Content\Img\upgrade.png" />
     <Content Include="Content\Img\upper.png" />
     <Content Include="Content\Img\user_arrows.png" />
@@ -314,6 +320,7 @@
     <Content Include="Content\Img\code-app.png" />
     <Content Include="Content\Img\code-pc.png" />
     <Content Include="Content\Img\weman.png" />
+    <Content Include="Content\Js\ManitoHomepage.js" />
     <Content Include="Content\Js\personal_index.js" />
     <Content Include="Content\Js\Personal_ManitoRecreation.js" />
     <Content Include="Content\Js\Personal_ManitoTop.js" />

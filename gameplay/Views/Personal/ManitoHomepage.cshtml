@@ -90,7 +90,7 @@
                 </div>
                 <div class="right_game_msg fl">
                     <!--复审未通过-->
-                    <div class="right_game_nopass display">
+                    <div class="right_game_nopass ">
                         <div class="game_nopass_item">
                             <p><span class="circle"></span>初审资料提交</p>
                             <span>2018-02-02 18:20:22</span>
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                     <!--复审已通过-->
-                    <div class="right_game_pass">
+                    <div class="right_game_pass display">
                         <!--没有评价-->
                         <div class="no_message_cont display">
                             <img class="no_message" src="~/Content/Img/no_message.png" />
@@ -213,7 +213,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="game_label_cont">
+                    <!--初审通过-->
+                    @*<div class="game_label_cont">
                         <span class="game_label_cont_title">陪打标签：</span>
                         <ul>
                             <li>语音陪打</li>
@@ -236,8 +237,21 @@
                         <span>价格设置</span>
                         <span>标签设置</span>
                         <span>说明设置</span>
+                    </div>*@
+                    <!--初审提交-->
+                    <div class="game_apply_cont">
+                        <span class="game_apply_cont_title">审核进度：</span>
+                        <div class="game_apply_cont_txt">
+                            <div class="game_nopass_item">
+                                <p><span class="circle"></span>初审通过，进入实力复审</p>
+                                <span>2018-02-02 18:20:22</span>
+                            </div>
+                            <div class="game_nopass_item">
+                                <p><span class="circle"></span>初审未通过，<a class="hover" href="#">重新认证</a> 或 <a class="hover" href="#">取消认证</a></p>
+                                <span>2018-02-02 18:20:22</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
         </div>
         <!--添加游戏-->
@@ -247,14 +261,14 @@
         <!--陪玩的评价和访客-->
         <div class="recreation_evaluate_visitor_cont clearfix">
             <div class="recreation_evaluate_cont fl">
+                <p class="right_message_num_cont">客户评价 ( <span class="right_message_num">288</span> ) </p>
                 <!--没有评价-->
-                <div class="no_message_cont display">
+                <div class="no_message_cont">
                     <img class="no_message" src="~/Content/Img/no_message.png" />
                     <p>暂未收到评价</p>
                 </div>
                 <!--有评价-->
-                <p class="right_message_num_cont">客户评价 ( <span class="right_message_num">288</span> ) </p>
-                <div class="right_message_cont">
+                @*<div class="right_message_cont">
                     <div class="right_message_item">
                         <div class="user_head fl">
                             <img src="~/Content/Img/use_img.jpg" />
@@ -300,7 +314,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div>*@
             </div>
             <div class="recreation_visitor_cont fl">
                 <p class="right_message_num_cont">最近来访</p>
