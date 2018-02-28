@@ -445,6 +445,9 @@
     margin-right:19px;
     line-height:80px;
 }
+.place_order_btn_item .item_icon img{
+    vertical-align:middle;
+}
 .place_order_btn_item .item_t_cont{
     margin-top:12px;
 }

@@ -18,6 +18,7 @@
             $('.login_btn').css('pointerEvents', 'none');
         }
     })
+
     $('.login_way_btn_txt').click(function () {
         $('.login_txt').removeClass('display');
         $('.login_code').addClass('display');
@@ -30,6 +31,8 @@
         event.preventDefault();
         $('.login_way_btn_txt').trigger('click');
     })
+
+
     //注册验证
     var uname = $('.register_name'), pass = $('.register_password'), pass1 = $('.register_password_check'), phone = $('.phone'), code = $('.register_code'), agree = $('.accept'), qq = $('.qq'), phoneCode = $('.register_phone_code');
     var register = {};
@@ -112,26 +115,30 @@
             delete register.code;
             doregister();
             return;
+        } else {
+            code.parent("div").find(".input_msg").html("").addClass("ok").removeClass("err");
+            register.code = 'code';
+            doregister();
         }
-        $.ajax({
-            type: "Post",
-            url: '',
-            data: { code: code.val().trim() },
-            dataType: "json",
-            success: function (data) {
-                if (data.d) {
-                    code.parent("div").find(".input_msg").removeClass("ok").addClass("err").html("验证码错误");
-                    delete register.code;
-                    doregister();
-                    return;
-                }
-                else{
-                    code.parent("div").find(".input_msg").html("").addClass("ok").removeClass("err");
-                    register.code = 'code';
-                    doregister();
-                } 
-            }
-        });
+        //$.ajax({
+        //    type: "Post",
+        //    url: '',
+        //    data: { code: code.val().trim() },
+        //    dataType: "json",
+        //    success: function (data) {
+        //        if (data.d) {
+        //            code.parent("div").find(".input_msg").removeClass("ok").addClass("err").html("验证码错误");
+        //            delete register.code;
+        //            doregister();
+        //            return;
+        //        }
+        //        else{
+        //            code.parent("div").find(".input_msg").html("").addClass("ok").removeClass("err");
+        //            register.code = 'code';
+        //            doregister();
+        //        } 
+        //    }
+        //});
     });
     //验证手机号
     $('.phone').blur(function () {
